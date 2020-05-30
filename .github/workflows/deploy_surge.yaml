@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Install NodeJS
-      uses: actions/setub-node@v2-beta
+      uses: actions/setub-node@v1-beta
       with:
         node-version: 12
         
